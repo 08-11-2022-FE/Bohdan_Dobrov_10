@@ -1,3 +1,7 @@
+.container-body {
+    border-bottom: 1px solid #BDBDBD;
+}
+
 .container {
     width: 1170px;
     font-family: 'Lato', sans-serif;
@@ -8,8 +12,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    border-bottom: 1px solid #BDBDBD;
     height: 80px;
 }
 
@@ -75,7 +77,7 @@
 .divider {
     margin: 20px auto 40px;
     padding: 0;
-    border: 2px solid #DDDBDB;
+    border-bottom: 4px solid #DDDBDB;
     width: 45px;
 }
 
